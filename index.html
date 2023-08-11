@@ -1,12 +1,171 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sandy's Profile</title>
-    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat:wght@100&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,600&family=Roboto:wght@300;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    <h2>Hola Sandy</h2>
+
+    <!-- HEADER -->
+    <header>
+        <div class="contenedor">
+            <nav class="menu">
+                <a href="#">Acerca de</a>
+                <a href="#">Trabajos</a>
+                <a href="#">Contacto</a>
+            </nav>
+        </div>
+
+        <div class="contenedor-texto">
+            <div class="texto">
+                <h1 class="nombre">Sandra Hernández Valero</h1>
+                <h2>Ing. Sistemas Computacionales</h2>
+            </div>
+        </div>
+    </header>
+
+    <!-- SECCION PRINCIPAL -->
+    <section class="main">
+        <section class="acerca-de">
+            <div class="contenedor">
+                <div class="foto">
+                    <img src="img/sandy.jpg" width="115" height="115" alt="Sandra Hernández">
+                </div>
+
+                <div class="texto">
+                    <h3 class="titulo">Acerca de</h3>
+                    <p>Carta de presentación de <span class="bold">mi perfil</span> y diferentes tecnologías </p>
+                </div>
+            </div>
+        </section>
+        <section class="trabajos">
+            <div class="contenedor">
+                <h3 class="titulo">Trabajos</h3>
+                <div class="contenedor-trabajos">
+                    <div class="trabajo">
+                        <div class="thumb">
+                            <img src="img/trabajos/1.jpg" alt="">
+                        </div>
+                        <div class="descripcion">
+                            <p class="nombre">Nombre 1</p>
+                            <p class="categoria">HTML-CSS-JS</p>
+                        </div>
+                    </div>
+
+                    <div class="trabajo">
+                        <div class="thumb">
+                            <img src="img/trabajos/2.jpg" alt="">
+                        </div>
+                        <div class="descripcion">
+                            <p class="nombre">Nombre 2</p>
+                            <p class="categoria">HTML-CSS-JS</p>
+                        </div>
+                    </div>
+
+                    <div class="trabajo">
+                        <div class="thumb">
+                            <img src="img/trabajos/3.jpg" alt="">
+                        </div>
+                        <div class="descripcion">
+                            <p class="nombre">Nombre 3</p>
+                            <p class="categoria">HTML-CSS-JS</p>
+                        </div>
+                    </div>
+
+                    <div class="trabajo">
+                        <div class="thumb">
+                            <img src="img/trabajos/4.jpg" alt="">
+                        </div>
+                        <div class="descripcion">
+                            <p class="nombre">Nombre 4</p>
+                            <p class="categoria">HTML-CSS-JS</p>
+                        </div>
+                    </div>
+
+                    <div class="trabajo">
+                        <div class="thumb">
+                            <img src="img/trabajos/5.jpg" alt="">
+                        </div>
+                        <div class="descripcion">
+                            <p class="nombre">Nombre 5</p>
+                            <p class="categoria">HTML-CSS-JS</p>
+                        </div>
+                    </div>
+
+                    <div class="trabajo">
+                        <div class="thumb">
+                            <img src="img/trabajos/6.jpg" alt="">
+                        </div>
+                        <div class="descripcion">
+                            <p class="nombre">Nombre 6</p>
+                            <p class="categoria">HTML-CSS-JS</p>
+                        </div>
+                    </div>
+
+                    <div class="trabajo">
+                        <div class="thumb">
+                            <img src="img/trabajos/7.jpg" alt="">
+                        </div>
+                        <div class="descripcion">
+                            <p class="nombre">Nombre 7</p>
+                            <p class="categoria">HTML-CSS-JS</p>
+                        </div>
+                    </div>
+
+                    <div class="trabajo">
+                        <div class="thumb">
+                            <img src="img/trabajos/8.jpg" alt="">
+                        </div>
+                        <div class="descripcion">
+                            <p class="nombre">Nombre 8</p>
+                            <p class="categoria">HTML-CSS-JS</p>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <section class="contacto">
+            <div class="contenedor">
+                <h3 class="titulo">CONTACTO</h3>
+                <form class="formulario" action="">
+                    <input type="text" placeholder="Nombre" name="nombre" required>
+                    <input type="email" placeholder="Correo" name="correo" required>
+                    <textarea name="mensaje" placeholder="Mensaje"></textarea>
+                    <input class="boton" type="submit" value="Enviar">
+                </form>
+            </div>
+        </section>
+
+        <section class="redes-sociales">
+            <div class="contenedor">
+                <a href="#" class="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                <a href="#" class="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="#" class="youtube"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                <a href="#" class="github"><i class="fa fa-github" aria-hidden="true"></i></a>
+                <a href="#" class="instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            </div>
+        </section>
+    </footer>
+
+
+
 </body>
+
 </html>
